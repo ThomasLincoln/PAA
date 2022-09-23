@@ -1,0 +1,89 @@
+1º Apresentação do contexto do problema, até o momento só sabemos que a gente vai tratar de 
+uma pandemia, só não sabemos como.
+
+Uma pandemia de uma doença altamente contagiosa é um grande desafio para a saúde pública de
+qualquer jurisdição. O desafio se torna particularmente grande em casos como doenças em que o
+crescimento nos números de novos casos se dá de forma exponencial, o que gera enorme pressão no
+sistema de saúde e seu eventual colapso em casos em que esse crescimento nos números de casos
+não é controlado. Dado o desafio para uma administração pública de controlar o ritmo que se dá a
+evolução de uma pandemia em seu território, é de grande importância que sejam consideradas
+diferentes medidas para conter o crescimento de novos casos da doença na região.
+
+----------------------------------------------------------------------
+2º O governo pode barrar as pessoas.
+
+Em se tratando de uma doença altamente contagiosa, uma primeira medida é evitar novos contágios
+por meio de distanciamento social. O poder público tem a possibilidade de decretar novas leis que
+obriguem os seus cidadãos a seguirem normas de distanciamento social, o que geralmente inclui o
+fechamento de certos comércios e proibição de realização de eventos que geram aglomerações.
+------------------------------------------------------------------------
+3º vamo buscar uma solução pro problema de forma tecnologica
+
+Sabendo da dificuldade em impor essas novas regras em uma sociedade em que valores de
+coletivismo não são aceitos por uma parcela significativa e por haver diversos motivos que levam
+pessoas a colocarem seus desejos por liberdade individual acima do interesse público no controle de
+uma situação de pandemia, uma prefeitura de uma grande cidade tem o interesse de buscar soluções
+computacionais para tornar o seu processo de fiscalização mais eficaz e eficiente.
+--------------------------------------------------------------------------
+4º Mais contexto
+
+Na administração pública, a fiscalização é uma tarefa importante para garantir que as leis sejam
+seguidas pela população, mas que exige uma coordenação entre membros de diferentes instituições
+como agentes de fiscalização e agentes de segurança. Idealmente, não seria necessária a fiscalização.
+--------------------------------------------------------------------------------
+5º Terra brasilis
+
+Cada cidadão deveria conhecer seus direitos e também seus deveres. Não somente conhecer, mas
+também obedecer a lei. Infelizmente, não é raro observarmos casos de cidadãos esclarecidos que,
+não apenas infringem uma lei, mas desrespeitam até mesmo uma autoridade que esteja realizando
+um trabalho de fiscalização e imposição da lei. 
+---------------------------------------------------------------------------
+6º Precisamos encontrar aglomerações com dados de localização
+
+Portanto, para auxiliar o processo de fiscalização de
+uma lei de proibição de aglomeração, o seu desafio é de utilizar dados de localização geográfica
+fornecidos por uma operadora de telefonia celular parceira para identificar aglomerações.
+
+----------------------------------------------------------------------------
+7º Vamos receber regiões X,Y e as localizações das pessoas
+
+O planejamento de uma ação de fiscalização será realizado conforme o uso de um sistema
+computacional para encontrar uma região de interesse. Para otimizar uma ação, o sistema deverá
+escolher uma região quadrangular no mapa da cidade. Neste mapa específico, a cidade é dividida em
+coordenadas com um certo nível de resolução, de forma que para cada posição (x,y) neste mapa
+existe aproximadamente um quarteirão da cidade. Para facilitar, os dados de quantidade de usuários
+de telefone de celular já estão mapeados e compilados para esse sistema de coordenadas e a
+operadora irá reportar apenas as localizações de maior interesse, ou seja, aquelas que apresentaram
+variação significativa de uso em um determinado período.
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+8º Teremos uma região quadrangular de tamanho d.
+
+Para otimizar a ação de fiscalização, você deve desenvolver um programa eficiente que encontre a
+região quadrangular, cujo tamanho é definido por um dado valor d
+---------------------------------------------------------------------------
+9º Vamos usar esse quadrado pra achar o ponto que tenha mais usuários de telefone em um período.
+
+que tenha o número máximo de usuários de telefone celular para um dado período dentro do tempo 
+limite especificado no problema.
+
+---------------------------------------------------------------------------
+10º O nosso mapa tem tamanho 1025x1025, talvez seja uma boa fazer uma função isolada para criar o mapa
+
+O espaço do mapa consiste em uma grade discreta de dimensão 1025 x 1025. 
+
+---------------------------------------------------------------------------
+11º Aqui a gente tem como ele vai inserir os dados.
+
+O relatório fornecido
+pela operadora contém uma lista de posições do mapa em que cada posição contém uma dada
+coordenada (x,y) e a quantidade de usuários de celular naquela posição. 
+---------------------------------------------------------------------------
+12º Um pouco mais de como vai ser a entrada
+
+O seu programa recebe o valor d que determina o tamanho da região a ser buscada. 
+---------------------------------------------------------------------------
+
+Caso exista mais de uma região com a quantidade máxima de usuários, o sistema deve reportar a posição com a menor coordenada, considerando que as posições são ordenadas primeiro pelas suas coordenadas x e depois pelas suas coordenadas y. Para determinar os limites de uma dada região definida a partir de um dado um ponto de referência (x1, y1) na grade, um ponto (x2, y2) está dentro da mesma região d (x1, y1) caso a equação

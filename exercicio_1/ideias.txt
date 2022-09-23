@@ -1,0 +1,2 @@
+primeiro, talvez ja colocar todos os pontos setados em 0
+e depois ir mudando ponto a ponto
